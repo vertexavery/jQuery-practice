@@ -43,16 +43,23 @@ html, body {
     line-height: 40px;
     height: 40px;
 }
+
+#listwrapper ul li:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 #menu {
     margin: 0;
     text-align: center;
     text-decoration: underline;
-    color: black;
-    background: -webkit-linear-gradient(white, gray);
+    color: white;
+    background: -webkit-linear-gradient(#7b91ee, black 99%);
     border-right: 1px solid black;
     padding-top: 2px;
     padding-bottom: 0;
     cursor: pointer;
+    border-radius: 5px;
 }
 #menu p {
     font-size:14pt;
@@ -64,5 +71,6 @@ html, body {
     background-color: #cccccc;
     height: 93px;
     width: 100%;
-    background: -webkit-linear-gradient(white, gray);
+    background: -webkit-linear-gradient(#7b91ee, black 99% );
+    border-radius: 5px;
 }

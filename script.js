@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    $('#listwrapper').hide();
     $("#listwrapper ul li").mouseenter(function () {
         $(this).fadeTo('fast', 0.5);
     });
